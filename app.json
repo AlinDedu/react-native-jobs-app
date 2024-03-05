@@ -5,8 +5,8 @@
 			"bundler": "metro"
 		},
 		"plugins": ["expo-router"],
-		"name": "react_native_jobs",
-		"slug": "react_native_jobs",
+		"name": "DevJobs",
+		"slug": "DevJobs",
 		"extra": {
 			"router": {
 				"origin": false
