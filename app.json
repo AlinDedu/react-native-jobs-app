@@ -1,13 +1,23 @@
 {
-  "expo": {
-    "scheme": "acme",
-    "web": {
-      "bundler": "metro"
-    },
-    "plugins": [
-      "expo-router"
-    ],
-    "name": "react_native_jobs",
-    "slug": "react_native_jobs"
-  }
+	"expo": {
+		"scheme": "acme",
+		"web": {
+			"bundler": "metro"
+		},
+		"plugins": ["expo-router"],
+		"name": "react_native_jobs",
+		"slug": "react_native_jobs",
+		"extra": {
+			"router": {
+				"origin": false
+			},
+			"eas": {
+				"projectId": "8a1078a0-e71b-4622-9795-74cf533fdfad"
+			}
+		},
+		"android": {
+			"package": "com.alindedu.react_native_jobs",
+			"permissions": ["INTERNET"]
+		}
+	}
 }
